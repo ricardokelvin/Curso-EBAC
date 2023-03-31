@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Seu Nome" /> <br />
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="E-mail" /> <br />
+        <label for="tel">Cel.:</label>
+        <input id="tel" placeholder="Nº de Celular" /> <br />
+        <label for="número">Quantidade:</label>
+        <input id="número" type="number" max="15" min="0" step="3" placeholder="0-15"> <br />
+        <label for="arquivo">Escolha um Arquivo:</label>
+        <input id="arquivo" type="file" /> <br />
+        <label for="cor">Cor.:</label>
+        <input id="cor" type="color" /> <br />
+        <br />
+        <label for="termos">Aceito os Termos de Serviço</label>
+        <input id="termos" type="checkbox" />
+        <p>
+            Dentre as opções abaixo, qual é a sua <b>cor</b> favorita?
+        </p>
+        <label for="rojo">Vermelho</label>
+        <input id="rojo" type="radio" name="cor-favorita" />
+        <label for="amarillo">Amarelo</label>
+        <input id="amarillo" type="radio" name="cor-favorita" />
+        <label for="azul">Azul</label>
+        <input id="azul" type="radio" name="cor-favorita" /> 
+        <br /> <br />
+        <label>Qual o seu filme favorito, dentre as opções abaixo?</label> <br />
+        <select>
+            <option>Iron-Man 2</option>
+            <option>The Godfather</option>
+            <option>The Bucketlist</option>
+            <option>Rocky</option>
+            <option>60 Seconds</option>
+        </select>
+        <br />
+        <br />
+        <label for="comentário">Deixe-nos um comentário ou sugestão:</label> <br />
+        <textarea id="comentário" placeholder="Deixe seu comentário!"></textarea>
+        <br />
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
