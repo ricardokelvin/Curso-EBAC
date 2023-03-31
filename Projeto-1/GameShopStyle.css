@@ -1,0 +1,187 @@
+/*      Titles      */
+
+body {
+    font-family: 'Martian Mono', monospace;
+}
+
+header h1, footer,
+input, textarea {
+    font-family: 'Tilt Neon', cursive;
+}
+
+section h2,
+section h3,
+form button {
+    font-family: 'Unbounded', cursive;
+    margin-bottom: 15px;
+}
+
+/*      Titles end      */
+/*      Containers      */
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 5px;
+}
+
+.facade {
+    margin-right: 25px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandlist img {
+    height: 25px;
+}
+
+.brandlist li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.sociallinks img {
+    height: 35px;
+}
+
+.sociallinks li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.sociallinks li a {
+    text-decoration: none;
+}
+
+#Contact .container {
+    display: block;
+}
+
+.contact-methodes {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*      Containers end      */
+/*      Links               */
+
+header h1 a {
+    text-decoration: none;
+    color:rgba(247, 189, 112, 0.827)
+}
+
+header nav li {
+    display: inline;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}  
+
+header nav li a {
+    text-decoration: none;
+    color: rgba(200, 75, 80, 0.8)
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+section ul {
+    margin-bottom: 20px;
+}
+
+.Adress p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*      Links end           */
+/*      General             */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(88, 86, 86, 0.917)
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    font-size: 30px;
+    padding: 15px 0;
+    background-color: lightseagreen;
+}
+
+section {
+    padding: 15px 0;
+}
+
+section h2,
+p {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+section h2 {
+    font-weight: 300;
+    color: rgba(213, 131, 63, 0.8);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 5px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+}
+
+form textarea {
+    height: 85px;
+}
+
+form button {
+    font-weight: 600;
+    background-color: lightseagreen;
+    color: rgba(213, 131, 63, 0.8);
+}
+
+form button:hover {
+    background-color: rgba(247, 189, 112, 0.827);
+    color: lightseagreen;
+}
+
+form button {
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    outline-color: lightseagreen;
+}
+
+
+footer {
+    background-color: lightseagreen;
+    padding: 10px 0;
+}
+
+footer p {
+    color: rgba(247, 189, 112, 0.827);
+}
+
+/*      General end          */
