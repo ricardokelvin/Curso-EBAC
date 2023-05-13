@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>2 > 1</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Exercício de Encerramento</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>
+                Esse formulário é fruto da realização do exercício de <b>encerramento</b> do módulo 7 do curso de Desenvolvimento Full Stack Python da EBAC.
+            </h2>
+            <div class="container">
+                <form id="last-form">
+                    <label for="first-number">Primeiro Número:</label>
+                    <input type="number" id="first-number" placeholder="Primeiro Número" required />
+                    <label for="second-number">Segundo Número:</label>
+                    <input type="number" id="second-number" placeholder="Segundo Número" required />
+                    <button type="submit">Send!</button>
+                    <p class="success-message">
+                        Sua entrada foi correta!
+                    </p>
+                    <p class="error-message">
+                        Sua entrada está errada!
+                    </p>
+                </form>
+            </div>
+
+            <p>
+                O exercício consiste no desenvolvimento de um formulário com duas entradas de números, onde o formulário só pode ser validado quando o segundo número for maior que o primeiro. <br />
+                Quando o primeiro número for maior, o formulário deve apresentar uma mensagem para o usuário dizendo que a resposta é inválida. <br />
+                Se válida, o formulário deve apresentar uma mensagem para o usuário dizendo que a resposta é, sim, válida.
+            </p>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h3>Entre em Contato:</h3>
+            <div class="meios">
+                <ul>
+                    <li>
+                        <a href="mailto:rickelvin2014@gmal.com" class="link-contato" title=Gmail>E-mail</a>
+                    </li>
+                    <li>
+                        <a href="tel: +5511951985143" class="link-contato" title="Telefone">Ligar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            &copy; Todos os Direitos Reservados - 2023
+        </div>
+    </footer>
+    <script src="./formulario.js"></script>
+</body>
+</html>
