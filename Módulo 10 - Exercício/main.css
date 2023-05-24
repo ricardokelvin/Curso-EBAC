@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 25px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(./images/MP4-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container h1, .container h2,
+.container-flex h3 {
+    font-family: 'Carlito', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header, footer {
+    color: #fff;
+    background-color: #C80000;
+    font-family: 'Carlito', sans-serif;
+    padding-top: 15px;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+header .container {
+    margin: 10px 0;
+}
+
+header > .container h1 {
+    font-size: 45px;
+}
+
+.menu-hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu-hamburger span {
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: rgb(200, 0, 0);
+    background: -moz-linear-gradient(135deg, rgb(200, 0, 0) 45%, rgba(255,255,255,1) 65%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(200, 0, 0) 45%, rgba(255,255,255,1) 65%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(135deg, rgb(200, 0, 0) 45%, rgba(255,255,255,1) 65%, rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ff0000",GradientType=1);
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.menu {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(225deg, rgba(255,255,255,1) 7%, rgba(200,0,0,1) 35%, rgba(255,255,255,1) 85%);
+    background: -webkit-linear-gradient(225deg, rgba(255,255,255,1) 7%, rgba(200,0,0,1) 35%, rgba(255,255,255,1) 85%);
+    background: linear-gradient(225deg, rgba(255,255,255,1) 7%, rgba(200,0,0,1) 35%, rgba(255,255,255,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+nav {
+    display: none;
+    position: sticky;
+    top: 104px;
+    left: 0;
+    z-index: 1;
+}
+
+nav li {
+    max-width: 60px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+#formulario {
+    margin-bottom: 50px;
+}
+
+#formulario form {
+    margin-left: 160px;
+}
+
+form {
+    max-width: 400px;
+}
+
+.form-campo {
+    margin-bottom: 10px;
+
+    justify-content: center;
+
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    color: #b0b0b0;
+}
+
+.form-campo input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    color: #C80000;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    width: 120px;
+    padding: 5px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contatos {
+    text-align: center;
+}
+
+#contatos h2 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #C80000;
+}
+
+.lista-contato li {
+    margin-bottom: 10px;
+}
+
+.lista-contato li a {
+    text-decoration: none;
+    color: #ffffff;
+}
