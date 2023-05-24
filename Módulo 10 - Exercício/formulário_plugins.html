@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:wght@700&family=Sofia+Sans+Extra+Condensed:wght@200&display=swap" rel="stylesheet">
+    <title>Formulários - Mask</title>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Preencha o Formulário</h1>
+            <div class="menu-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </nav>
+    <section id="formulario">
+        <form id="form-cadastro">
+            <div class="container">
+                <div class="form-campo">
+                    <label for="nome">Nome.:</label>
+                    <input type="text" name="entradaNome" id="nome" placeholder="Nome completo"/>
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail.:</label>
+                    <input type="email" name="entradaEmail" id="email" placeholder="Digite seu e-mail" />
+                </div>
+                <div class="form-campo">
+                    <label for="celular">Celular.:</label>
+                    <input type="text" name="entradaTelefone" id="celular" placeholder="(12) 12345-1234" />
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF.:</label>
+                    <input type="text" name="entradaCpf" id="cpf" placeholder="123.456.789-12"/>
+                </div>
+                <div class="form-campo">
+                    <label for="endereco">Endereço.:</label>
+                    <input type="text" name="entradaEndereco" id="endereco" placeholder="Digite seu endereço" />
+                </div>
+                <div class="form-campo">
+                    <label for="CEP">CEP.:</label>
+                    <input type="text" name="entradaCep" id="CEP" placeholder="12.345-678"/>
+                </div>
+                <button type="submit" id="btn-cadastro">Cadastrar</button>
+            </div>
+        </form>
+    </section>
+    <section id="contatos">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <div class="lista-contato">
+                <ul>
+                    <li>
+                        <a href="mailto:rickelvin97@outlook.com">E-mail</a>
+                    </li>
+                    <li>
+                        <a href="tel:+5511951985143">Telefone</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <a href="#">
+            <img src="./images/arrow_circle_up_FILL1_wght300_GRAD-25_opsz40.svg" alt="" />
+        </a>
+    </aside>
+    <footer>
+        <div class="container container-flex">
+            <p>2023 &copy; Empresa X - Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
